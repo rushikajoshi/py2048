@@ -56,4 +56,3 @@ modules used
 -time (sleep) : for having a time space of 1s after displaying the message "INAVLID MOVE"
 
 
-
