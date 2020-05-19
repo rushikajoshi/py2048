@@ -79,7 +79,7 @@ def win_check(game,End_number):
 def gameover_check(game,flag=0):
 	for i in range(len(game)):
 		for j in range(len(game)-1):
-			if(game[i][j]!=0 or game[i][j]!=game[i][j+1] or game[j][i]!=game[j+1][i]):
+			if(game[i][j]==0 or game[i][j]==game[i][j+1] or game[j][i]==game[j+1][i]):
 				flag=1
 		if(flag==1):
 			break
